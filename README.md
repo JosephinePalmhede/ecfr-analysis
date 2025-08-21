@@ -3,16 +3,19 @@
 A full-stack application that allows users to analyze U.S. federal regulations by agency using data from the [eCFR.gov](https://www.ecfr.gov/) API. Built in Python with FastAPI (backend) and Streamlit (frontend).
 
 ## Project Structure
+```
 project_root/
 ├── backend/
-│   ├── main.py             # FastAPI app
-│   ├── fetcher.py          # Downloads eCFR data
-│   ├── analyzer.py         # Computes metrics (word count, checksums, etc)
-│   └── data/               # Cached data (after fetching)
+│    ├── main.py             # FastAPI app
+│    ├── fetcher.py          # Downloads eCFR data
+│    ├── analyzer.py         # Computes metrics (word count, checksums, etc)
+│    └── data/               # Cached data (after fetching)
 ├── frontend/
-│   └── app.py              # Streamlit UI
+│    └── app.py              # Streamlit UI
 ├── requirements.txt        # Shared dependencies
 └── README.md               # Setup and usage instructions
+```
+
 
 ## Features
 - Download and analyze regulatory text by agency (word count, complexity, checksum)  
