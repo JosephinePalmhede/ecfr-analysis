@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Env
+.env
+.venv/
+
+# Data
+backend/data/
+*.xml
+*.json
+
+# Streamlit cache
+frontend/.streamlit/
